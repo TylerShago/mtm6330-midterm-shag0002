@@ -1,42 +1,4 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #489942;
-  border-radius: 30%;
-}
-
-li {
-  border-right: 1px solid black;
-  color: white;
-  float: left;
-  border-right: 0;
-  width: 33.3%;
-}
-
-li:last-child {
-  border-right: none;
-  overflow: hidden;
-}
-
-li a {
-  display: block;
-  border: 1px solid black;
-  color: white;
-  text-align: center;
-  padding: 20px 24px;
-  text-decoration: none;
-  background-color: #489942;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-}
-
-li a:hover {
-  background-color: #AEE8AA;
-}
-
-nav {
-  width: 70%;
-  max-width: 100%;
-  min-width: 100%;
-}
+@import 'base';
+@import 'nav';
+@import 'cards';
+@import 'contact';
