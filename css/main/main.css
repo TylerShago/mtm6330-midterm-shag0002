@@ -103,8 +103,8 @@ article {
   .bttn {
     background-color: #44ccff;
     border: 0.5px solid black;
-    width: 40%;
-    height: 15%;
+    width: 150px;
+    height: 50px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
@@ -135,9 +135,7 @@ article {
 @media screen and (min-width: 35rem) {
   row {
     padding-left: 3%;
-    padding-right: 2%;
-    display: flex;
-    flex-direction: column; }
+    padding-right: 2%; }
   .card {
     background-color: #A3EAFF;
     width: 100%;
@@ -155,38 +153,38 @@ article {
     height: 65%; }
   .bio {
     word-wrap: break-word; }
-  .bio h2 {
-    font-size: 2rem; }
-  .bio p {
-    font-size: 1.2rem;
-    padding-left: 10px; }
+    .bio h2 {
+      font-size: 2rem; }
+    .bio p {
+      font-size: 1.2rem;
+      padding-left: 10px; }
   .button {
     opacity: 0.6;
     cursor: not-allowed;
     background-color: #44ccff;
     border: 0.5px solid black;
     color: white;
-    width: 150px;
-    height: 50px;
+    width: 35%;
+    height: 7%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
     position: absolute;
-    top: 80%;
+    top: 88%;
     left: 55%; }
   .bttn {
     background-color: #44ccff;
     border: 0.5px solid black;
-    width: 20%;
-    height: 5%;
+    width: 35%;
+    height: 7%;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     cursor: pointer;
     position: absolute;
-    top: 80%;
+    top: 88%;
     left: 55%;
     color: white; }
   a:link {
@@ -317,44 +315,21 @@ article {
     .content .button {
       height: 50px;
       width: 150px;
-      margin-top: 60px; } }
+      margin-top: 50px; } }
+
+@media screen and (min-width: 35rem) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+    padding-right: 25%; }
+  .content p {
+    display: flex;
+    flex-direction: row; }
+  img {
+    width: 45%;
+    height: 35%;
+    padding: 2%; } }
 
 body {
   background-color: #f7fe72; }
-
-.button {
-  opacity: 0.6;
-  cursor: not-allowed;
-  background-color: #44ccff;
-  border: 0.5px solid black;
-  color: white;
-  width: 40%;
-  height: 15%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  position: absolute;
-  top: 80%;
-  left: 55%; }
-
-.bttn {
-  background-color: #44ccff;
-  border: 0.5px solid black;
-  width: 40%;
-  height: 15%;
-  text-align: center;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
-  position: absolute;
-  top: 80%;
-  left: 55%;
-  color: white; }
-
-a:link {
-  text-decoration: none; }
-
-.live {
-  color: white; }
