@@ -1,13 +1,8 @@
 @media screen and (max-width:35rem) {
-  .row {
-    padding-left: 1%;
-    padding-right: 1%;
-  }
-
   .card {
     width: 100%;
     height: 260px;
-    background: #A3EAFF;
+    background: #ffe1ea;
     position: relative;
     border: 1px solid black;
     display: flex;
@@ -15,13 +10,13 @@
   }
 
   .card:nth-child(odd) {
-    background-color: #FFB2FF;
+    background-color: #ffa0fd;
   }
 
   .button {
     opacity: 0.6;
     cursor: not-allowed;
-    background-color: #991C2A;
+    background-color: #44ccff;
     border: 0.5px solid black;
     color: white;
     width: 40%;
@@ -37,11 +32,33 @@
 
   }
 
+  .bttn {
+    background-color: #44ccff;
+    border: 0.5px solid black;
+    width: 40%;
+    height: 15%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    color: white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .live {
+    color: white;
+  }
+
   img {
     width: 40%;
     height: 100%;
     display: flex;
-    flex-direction: cl;
   }
 
   .bio {
@@ -51,12 +68,97 @@
     flex-direction: column;
     padding-left: 10px;
 
-    .bio h2 {
-      font-size: 1.5rem;
+    h2 {
+      font-size: 1.7rem;
     }
 
-    .bio p {
-      font-size: 1.1rem;
+    p {
+      font-size: 1.3rem;
     }
+  }
+}
+
+@media screen and (min-width:35rem) {
+  row {
+    padding-left: 3%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    background-color: #A3EAFF;
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+    width: 32%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+
+  .card:nth-child(odd) {
+    background-color: #FFB2FF;
+  }
+
+  img {
+    width: 100%;
+    height: 65%;
+  }
+
+  .bio {
+    word-wrap: break-word;
+  }
+
+  .bio h2 {
+    font-size: 2rem;
+  }
+
+  .bio p {
+    font-size: 1.2rem;
+    padding-left: 10px;
+  }
+
+  .button {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: #44ccff;
+    border: 0.5px solid black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+
+  }
+
+  .bttn {
+    background-color: #44ccff;
+    border: 0.5px solid black;
+    width: 20%;
+    height: 5%;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    color: white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .live {
+    color: white;
   }
 }

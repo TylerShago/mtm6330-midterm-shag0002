@@ -1,0 +1,151 @@
+@media screen and (max-width:35rem) {
+  form {
+    font-family: serif;
+    font-size: 1rem;
+    padding-left: 1%;
+  }
+
+  .forms {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 1%;
+    background: #44ccff;
+  }
+
+  input[type=text] {
+    border: 1px solid black;
+    width: 40%;
+    display: block;
+    height: 30px;
+  }
+
+  input[type=email] {
+    display: block;
+    width: 60%;
+    height: 30px;
+    border: 1px solid black;
+  }
+
+  .news {
+    padding-bottom: 10px;
+    padding-top: 7px;
+  }
+
+  textarea {
+    min-width: 70%;
+    max-width: 70%;
+    width: 70%;
+    min-height: 80px;
+    max-height: 80px;
+    height: 80px;
+    display: block;
+    border: 2px solid black;
+  }
+
+  input[type=submit] {
+    background-color: #d2f1e4;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-top: 10px;
+  }
+
+  .order {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-family: sans-serif;
+  }
+
+  iframe {
+    width: 100%;
+    height: 400px;
+  }
+
+  label,
+  input {
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (min-width:35rem) {
+  .forms {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 1%;
+    background: white;
+  }
+
+  input[type=text] {
+    width: 35%;
+    height: 25px;
+    display: block;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid black;
+  }
+
+  input[type=email] {
+    display: block;
+    width: 45%;
+    height: 25px;
+  }
+
+  textarea {
+    min-width: 45%;
+    max-width: 45%;
+    width: 45%;
+    min-height: 120px;
+    max-height: 120px;
+    height: 120px;
+    display: block;
+    border: 2px solid black;
+  }
+
+  input[type=checkbox] {
+    cursor: pointer;
+  }
+
+  input[type=submit] {
+    background-color: #9C95CC;
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  label {
+    font-size: 1.5rem;
+  }
+
+  label,
+  input {
+    font-family: 'Asap', sans-serif;
+  }
+
+  .order,
+  .down {
+    font-size: 2.5rem;
+  }
+
+  iframe {
+    width: 600px;
+    height: 400px;
+    margin-right: 50px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
