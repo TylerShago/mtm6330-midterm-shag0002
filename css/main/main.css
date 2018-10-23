@@ -401,6 +401,9 @@ input[type=submit] {
 body {
   background-color: #f5eccd; }
 
+p {
+  font-family: 'Niramit', sans-serif; }
+
 .item-photo {
   width: 50%;
   height: 70%;
