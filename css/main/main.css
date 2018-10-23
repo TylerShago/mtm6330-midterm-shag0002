@@ -102,7 +102,8 @@ article {
     .bio h2 {
       font-size: 1.7rem; }
     .bio p {
-      font-size: 1.3rem; } }
+      font-size: 1.3rem;
+      line-height: 1rem; } }
 
 @media screen and (min-width: 35rem) and (max-width: 80rem) {
   .card {
@@ -132,7 +133,8 @@ article {
     .bio h2 {
       font-size: 1.7rem; }
     .bio p {
-      font-size: 1.3rem; } }
+      font-size: 1.3rem;
+      line-height: 1rem; } }
 
 @media screen and (min-width: 80rem) {
   .card {
@@ -157,7 +159,8 @@ article {
       font-size: 2rem; }
     .bio p {
       font-size: 1.2rem;
-      padding-left: 10px; }
+      padding-left: 10px;
+      line-height: 1rem; }
   .bttn {
     background-color: #44ccff;
     border: 0.5px solid black;
@@ -212,15 +215,6 @@ article {
     height: 80px;
     display: block;
     border: 2px solid black; }
-  input[type=submit] {
-    background-color: #d2f1e4;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin: 10px 2px;
-    cursor: pointer;
-    border-top: 10px; }
   .order {
     font-size: 1.5rem;
     padding-bottom: 20px;
@@ -261,15 +255,6 @@ article {
     border: 2px solid black; }
   input[type=checkbox] {
     cursor: pointer; }
-  input[type=submit] {
-    background-color: #d2f1e4;
-    border: none;
-    color: black;
-    padding: 14px 30px;
-    text-decoration: none;
-    margin: 4px 2px;
-    margin-top: 30px;
-    cursor: pointer; }
   label {
     font-size: 1.5rem; }
   label,
@@ -294,7 +279,6 @@ article {
       height: 50%;
       padding: 2%; }
     .item p {
-      line-height: 2rem;
       margin-left: 2%;
       margin-right: 2%; }
     .item .button {
@@ -401,8 +385,29 @@ input[type=submit] {
 body {
   background-color: #f5eccd; }
 
-p {
+p,
+h1,
+h2,
+a,
+label {
   font-family: 'Niramit', sans-serif; }
+
+@media screen and (max-width: 35rem) {
+  p {
+    font-size: 2rem;
+    line-height: 3.2rem; } }
+
+@media screen and (min-width: 35rem) {
+  p {
+    font-size: 1.7rem;
+    line-height: 3.2rem; } }
+
+h1,
+h2 {
+  text-align: center; }
+
+h1 {
+  margin-top: 40px; }
 
 .item-photo {
   width: 50%;
