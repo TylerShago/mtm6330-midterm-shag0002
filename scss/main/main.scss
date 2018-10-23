@@ -3,29 +3,16 @@
 @import 'cards';
 @import 'contact';
 @import 'mobile';
+@import 'buttons';
 
 body {
-  background-color: #f7fe72;
+  background-color: #f5eccd;
 }
 
-.button {
-  background-color: #44ccff;
-  border: 0.5px solid black;
-  width: 150px;
-  height: 50px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  color: white;
-  float: right;
-}
+
 
 .item-photo {
   width: 50%;
   height: 70%;
   padding: 2%;
-}
-
-.read {
-  margin-top: 75px;
 }

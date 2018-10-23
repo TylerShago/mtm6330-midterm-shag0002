@@ -1,8 +1,11 @@
+$primary-color: #f5b0cb;
+$secondary-color:#dcccff;
+
 @media screen and (max-width:35rem) {
   .card {
     width: 100%;
-    height: 260px;
-    background: #FFC4D8;
+    height: 300px;
+    background: $primary-color;
     position: relative;
     border: 1px solid black;
     display: flex;
@@ -10,22 +13,7 @@
   }
 
   .card:nth-child(odd) {
-    background-color: #F593E9;
-  }
-
-  .bttn {
-    background-color: #44ccff;
-    border: 0.5px solid black;
-    width: 150px;
-    height: 50px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    position: absolute;
-    top: 80%;
-    left: 55%;
-    color: white;
+    background-color: $secondary-color;
   }
 
   a:link {
@@ -36,10 +24,11 @@
     color: white;
   }
 
-  img {
+  .product-photo {
     width: 40%;
-    height: 100%;
+    height: 70%;
     display: flex;
+    border: 2px solid black;
   }
 
   .bio {
@@ -59,15 +48,57 @@
   }
 }
 
-@media screen and (min-width:35rem) {
-  row {
-    padding-left: 3%;
-    padding-right: 2%;
+@media screen and (min-width:35rem) and (max-width:80rem) {
+  .card {
+    width: 100%;
+    height: 300px;
+    background: $primary-color;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
   }
 
+  .card:nth-child(odd) {
+    background-color: $secondary-color;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .live {
+    color: white;
+  }
+
+  .product-photo {
+    width: 40%;
+    height: 100%;
+    border: 2px solid black;
+  }
+
+  .bio {
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 10px;
+
+    h2 {
+      font-size: 1.7rem;
+    }
+
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media screen and (min-width:80rem) {
+
   .card {
-    background-color: #F593E9;
-    width: 100%;
+    background-color: $primary-color;
+    width: 33%;
     height: 600px;
     border: 2px solid black;
     width: 32%;
@@ -78,12 +109,13 @@
   }
 
   .card:nth-child(odd) {
-    background-color: #FFC4D8;
+    background-color: $secondary-color;
   }
 
-  img {
+  .product-photo {
     width: 100%;
-    height: 65%;
+    height: 70%;
+    border-bottom: 2px solid black;
   }
 
   .bio {
@@ -112,6 +144,7 @@
     top: 88%;
     left: 55%;
     color: white;
+    margin-top: 3%;
   }
 
   a:link {
@@ -120,5 +153,9 @@
 
   .live {
     color: white;
+  }
+
+  .row {
+    margin-left: 3%;
   }
 }
