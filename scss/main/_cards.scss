@@ -1,6 +1,9 @@
-$primary-color: #f5b0cb;
+// Cards styling for the items.
+
+$primary-color: #f5b0cb; // I used these here due to not being able to settle on a color.
 $secondary-color:#dcccff;
 
+// phone size.
 @media screen and (max-width:35rem) {
   .card {
     width: 100%;
@@ -10,10 +13,10 @@ $secondary-color:#dcccff;
     border: 1px solid black;
     display: flex;
     flex-direction: row;
-  }
 
-  .card:nth-child(odd) {
-    background-color: $secondary-color;
+    .card:nth-child(odd) {
+      background-color: $secondary-color;
+    }
   }
 
   a:link {
@@ -31,6 +34,7 @@ $secondary-color:#dcccff;
     border: 2px solid black;
   }
 
+  // bio nesting
   .bio {
     word-wrap: break-word;
     display: flex;
@@ -49,6 +53,7 @@ $secondary-color:#dcccff;
   }
 }
 
+// I did tablet sizing to help make things look better due to some sizing issues that I had.
 @media screen and (min-width:35rem) and (max-width:80rem) {
   .card {
     width: 100%;
@@ -96,6 +101,7 @@ $secondary-color:#dcccff;
   }
 }
 
+// desktop view
 @media screen and (min-width:80rem) {
 
   .card {
